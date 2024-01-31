@@ -4,13 +4,13 @@ const sport = prompt("What is your favorite sport?");
 // let year = false;
 // let city = "Kiyv";
 // let sport= "Checkers";
-let ageResponse;
-let cityResponse;
-let sportResponse;
 const currentYear= (new Date()).getFullYear();
 const citiesCapitals = {"Kiyv":"Ukraine","Washington":"USA","London":"Great Britain"}
 const sportChampions = {"Box":"Klichko","Swimming":"Klochkova","Checkers":"neighbour alcoholic"}
-const age = currentYear-year
+const age = currentYear-year;
+let ageResponse;
+let cityResponse;
+let sportResponse;
 
 ageResponse=("Your age is "+age)
 
