@@ -10,7 +10,7 @@ let sportResponse;
 const currentYear= (new Date()).getFullYear();
 const citiesCapitals = {"Kiyv":"Ukraine","Washington":"USA","London":"Great Britain"}
 const sportChampions = {"Box":"Klichko","Swimming":"Klochkova","Checkers":"neighbour alcoholic"}
-let age = currentYear-year
+const age = currentYear-year
 
 ageResponse=("Your age is "+age)
 
