@@ -12,9 +12,7 @@ let ageResponse;
 let cityResponse;
 let sportResponse;
 
-ageResponse=("Your age is "+age)
-
-if (year){
+if (age){
     ageResponse=("Your age is "+age)
 } else {
     ageResponse=("You didn't fill the 'Year' raw")
@@ -39,4 +37,5 @@ if (sport){
 } else {
     sportResponse=("You didn't fill the'Sport' raw")
 }
+
 alert(ageResponse+". "+cityResponse+". "+sportResponse)
